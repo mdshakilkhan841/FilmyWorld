@@ -5,17 +5,19 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex justify-between text-3xl text-pink-600 font-bold p-3 border-b-2 border-pink-600'>
-            <Link to={'/'}>
-            <span>Filmy<span className='text-white'>World</span></span>
-            </Link>
-            <Link to={'/add movie'}>
-                <h1 className='text-lg '>
-                    <Button variant="outlined" sx={{ borderColor: "white", ":hover": { borderColor: '#db2776' } }} >
-                        <AddIcon className='mr-1' sx={{ color: "white" }} /><span className='text-pink-600 font-bold'>Add New</span>
-                    </Button>
-                </h1>
-            </Link>
+        <div className='border-b-2 border-fuchsia-600 bg-neutral-800'>
+            <div className='max-w-[1240px] mx-auto flex justify-between text-3xl text-fuchsia-600 font-bold p-3'>
+                <Link to={'/'}>
+                    <span>Filmy<span className='text-white'>World</span></span>
+                </Link>
+                <Link to={'/add movie'}>
+                    <h1 className='text-lg '>
+                        <Button variant="outlined" sx={{ borderColor: "white", ":hover": { borderColor: '#C02ED3' } }} >
+                            <AddIcon className='mr-1' sx={{ color: "white" }} /><span className='text-fuchsia-600 font-bold'>Add New</span>
+                        </Button>
+                    </h1>
+                </Link>
+            </div>
         </div>
     )
 }

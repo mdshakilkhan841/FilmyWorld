@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 body{
-    background-color: black;
+    background-color: #171717;
     color: white;
-}
-
-.card{
-    background-color: rgb(25, 25, 25);
 }
