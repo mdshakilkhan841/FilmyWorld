@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='border-b-2 border-fuchsia-600 bg-neutral-800'>
-            <div className='max-w-[1240px] mx-auto flex justify-between text-3xl text-fuchsia-600 font-bold p-3'>
+        <div className='sticky top-0 z-30 border-b-2 border-fuchsia-600 bg-neutral-800 '>
+            <div className='max-w-[1240px] mx-auto flex justify-between text-3xl text-fuchsia-600 font-bold py-3 px-5'>
                 <Link to={'/'}>
                     <span>Filmy<span className='text-white'>World</span></span>
                 </Link>
